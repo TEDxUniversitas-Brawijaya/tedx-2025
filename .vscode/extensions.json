@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "astro-build.astro-vscode",
+    "aaron-bond.better-comments",
+    "biomejs.biome"
+  ]
+}
