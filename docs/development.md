@@ -9,8 +9,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/TEDxUniversitas-Brawijaya/tedx-2025.git
-   cd tedx-2025
+   git clone https://github.com/TEDxUniversitas-Brawijaya/tedx-2026.git
+   cd tedx-2026
    ```
 
 2. **Install dependencies**

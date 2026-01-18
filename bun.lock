@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "tedx-2025",
+      "name": "tedx-2026",
       "devDependencies": {
         "@biomejs/biome": "2.3.11",
         "lefthook": "^2.0.15",
@@ -20,12 +20,12 @@
       },
       "devDependencies": {
         "@astrojs/ts-plugin": "^1.10.6",
-        "@tedx-2025/tsconfig": "workspace:*",
+        "@tedx-2026/tsconfig": "workspace:*",
         "wrangler": "^4.59.2",
       },
     },
     "packages/tsconfig": {
-      "name": "@tedx-2025/tsconfig",
+      "name": "@tedx-2026/tsconfig",
     },
   },
   "catalog": {
@@ -292,7 +292,7 @@
 
     "@speed-highlight/core": ["@speed-highlight/core@1.2.14", "", {}, "sha512-G4ewlBNhUtlLvrJTb88d2mdy2KRijzs4UhnlrOSRT4bmjh/IqNElZa3zkrZ+TC47TwtlDWzVLFADljF1Ijp5hA=="],
 
-    "@tedx-2025/tsconfig": ["@tedx-2025/tsconfig@workspace:packages/tsconfig"],
+    "@tedx-2026/tsconfig": ["@tedx-2026/tsconfig@workspace:packages/tsconfig"],
 
     "@trpc/server": ["@trpc/server@11.8.1", "", { "peerDependencies": { "typescript": ">=5.7.2" } }, "sha512-P4rzZRpEL7zDFgjxK65IdyH0e41FMFfTkQkuq0BA5tKcr7E6v9/v38DEklCpoDN6sPiB1Sigy/PUEzHENhswDA=="],
 

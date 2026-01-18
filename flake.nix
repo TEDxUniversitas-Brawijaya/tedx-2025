@@ -1,5 +1,5 @@
 {
-  description = "tedx-2025's nix flake";
+  description = "tedx-2026's nix flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";

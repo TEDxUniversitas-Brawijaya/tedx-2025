@@ -1,6 +1,6 @@
-# TEDX 2025 Website
+# TEDX 2026 Website
 
-The main website for TEDX UB 2025 (Universitas Brawijaya), built with Astro for optimal performance and developer experience.
+The main website for TEDX UB 2026 (Universitas Brawijaya), built with Astro for optimal performance and developer experience.
 
 ## Tech Stack
 
@@ -123,7 +123,7 @@ export default defineConfig({
 
 Extends two configs:
 - `astro/tsconfigs/strict` - Astro's strict TypeScript settings
-- `@tedx-2025/tsconfig/base.json` - Workspace shared config (ESNext target)
+- `@tedx-2026/tsconfig/base.json` - Workspace shared config (ESNext target)
 
 ## Deployment
 

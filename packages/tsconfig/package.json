@@ -1,5 +1,5 @@
 {
-  "name": "@tedx-2025/tsconfig",
+  "name": "@tedx-2026/tsconfig",
   "private": true,
   "exports": {
     "./base.json": "./base.json",

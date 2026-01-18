@@ -1,6 +1,6 @@
 {
   "main": "dist/_worker.js/index.js",
-  "name": "tedx-2025-www",
+  "name": "tedx-2026-www",
   "compatibility_date": "2026-01-18",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": {
