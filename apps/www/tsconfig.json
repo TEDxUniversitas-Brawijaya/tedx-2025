@@ -1,5 +1,5 @@
 {
-  "extends": ["astro/tsconfigs/strict", "@tedx-2025/tsconfig/base.json"],
+  "extends": ["astro/tsconfigs/strict", "@tedx-2026/tsconfig/base.json"],
   "include": [".astro/types.d.ts", "**/*"],
   "exclude": ["dist"],
   "compilerOptions": {

@@ -5,7 +5,7 @@ This project uses a **Bun-based monorepo** with workspaces to organize multiple 
 ## Structure
 
 ```
-tedx-2025/
+tedx-2026/
 ├── apps/              # Applications
 ├── packages/          # Shared packages
 └── [config files]     # Root-level configuration
@@ -18,7 +18,7 @@ Workspaces are linked using the `workspace:*` protocol in package.json:
 ```json
 {
   "dependencies": {
-    "@tedx-2025/tsconfig": "workspace:*"
+    "@tedx-2026/tsconfig": "workspace:*"
   }
 }
 ```
@@ -50,6 +50,6 @@ To add a new app:
 
 To add a new package:
 1. Create a directory in `packages/`
-2. Add a `package.json` with `"name": "@tedx-2025/package-name"`
+2. Add a `package.json` with `"name": "@tedx-2026/package-name"`
 3. Export what other workspaces need
 4. Run `bun install` from the root directory to link workspaces

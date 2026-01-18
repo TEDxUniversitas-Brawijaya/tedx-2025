@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.6",
-    "@tedx-2025/tsconfig": "workspace:*",
+    "@tedx-2026/tsconfig": "workspace:*",
     "wrangler": "^4.59.2"
   }
 }
