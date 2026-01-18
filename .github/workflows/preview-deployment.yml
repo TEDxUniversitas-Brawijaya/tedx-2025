@@ -53,7 +53,7 @@ jobs:
         working-directory: apps/www
         run: |
           bun run build
-          wrangler versions upload 2>&1 | tee deploy-output.txt
+          bun x wrangler versions upload 2>&1 | tee deploy-output.txt
           VERSION_ID=$(grep -oP 'Version ID: \K[a-f0-9-]+' deploy-output.txt)
           PREVIEW_URL=$(grep -oP 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy-output.txt | head -1)
           echo "version_id=$VERSION_ID" >> $GITHUB_OUTPUT
